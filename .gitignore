@@ -1,9 +1,21 @@
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Python
 __pycache__/
 *.pyc
 .venv/
-node_modules/
-.next/
-backend/data/
-.env
-.env.local
+venv/
+
+# Backend generated data
+backend/data/uploads/
+backend/data/reports/
+
+# Next.js
+frontend/.next/
+frontend/node_modules/
+
+# OS
 .DS_Store
