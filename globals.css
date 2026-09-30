@@ -1,0 +1,7 @@
+* { box-sizing: border-box; }
+button { cursor: pointer; }
+label { display: block; font-size: 13px; font-weight: 600; }
+h3 { margin-top: 0; }
+@media (max-width: 1200px) {
+  main section > div { grid-template-columns: 1fr !important; }
+}
